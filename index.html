@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar starts -->
+    <div class="navbar">
+        <img src="./21.png" alt="" width="200px" height="30px" id="barber">
+        <ul id="nav">
+            <a href=""><li id="lists">Home</li></a>
+            <a href=""><li id="lists">Aboutus</li></a>
+            <a href=""><li id="lists">Pages
+                <ol id="hide">
+                    <li id="hide-list">OUR BARBERS</li>
+                    <li id="hide-list">LANDING</li>
+                    <li id="hide-list">MAKE AN APPOINTMENT</li>
+                    <li id="hide-list">SERVICES</li>
+                    <li id="hide-list">PRICING</li>
+                </ol>
+            </li></a>
+            <ul class="sidebar">
+                <li onclick="closetoddle()" ><i class="fa-solid fa-xmark"></i></li>
+                <li >Home</li>
+                <li >Aboutus</li>
+                <li >Pages</li>
+                <li >Contact</li>
+                <li><button id="book" style="width: 220px;">Book an appointment</button></li>
+            </ul>
+            <a href=""><li id="lists">Contact</li></a>
+        </ul>
+        <button id="books">Book an appointment</button>
+        <li style="list-style: none; width: 35px; height: 35px;" onclick="toddle()" ><i class="fa-solid fa-bars"></i></li>
+    </div>
+    <!-- navbar ends -->
+  <!-- images text starts -->
+   <div class="near">
+    <div class="model">
+        <img src="./1.jpg" alt="" width="100%" height="auto">
+        <p data-aos="fade-up" data-aos-once="false" data-aos-offset="0"class="fade">MANHATTAN <br>   BARBER SHOP</p>
+        <h3>Unforgettable grooming experience <br>in a barbershop near me</h3>
+        <button id="book" data-aos="fade-left" data-aos-mirror="false">Book an appointment</button>
+    </div>
+</div>
+    <!-- images text ends -->
+
+    <!-- details starts -->
+    <div class="welcome">
+        <p data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out">Welcome to the Best <br> Barbershop in Manhattan</p>
+        <div id="twoimg">
+            <img src="./2.jpg" alt="" width="40%" height="350px" data-aos="fade-right" data-aos-duration="1000"data-aos-easing="ease-in-out">
+            <img src="./3.jpg" alt="" width="40%" height="350px" data-aos="fade-left"data-aos-duration="1000"data-aos-easing="ease-in-out">
+        </div>
+        <div class="png-working">
+        <div id="pngedit" data-aos="zoom-in">
+            <img src="./4.png" alt="" width="247px" height="230px">
+        </div>
+        <div id="working" data-aos="zoom-in-left">
+            <a href="">+90 123 4567 32 11</a>
+            <h2>Working Hours</h2>
+            <hr>
+            <br>
+            <div id="grid">
+                <h2 class="item1">MON-THU</h2>
+                <h2 class="item2">09:00-19:00</h2>
+                <h2 class="item3">SAT-SUN</h2>
+                <h2 class="item4">09:00-19:00</h2>
+            </div>
+        </div> 
+    </div>  
+    </div>
+
+    <!-- details ends -->
+
+    <!-- barber shop starts -->
+     <div class="barber-shop">
+        <div id="textandimage">
+            <div id="text-content"data-aos="flip-left">
+         <p>WELCOME TO THE BOARD</p>
+         <h1>We are Barber Shop</h1>
+         <hr>
+         <p>The Barber Shop used to be greater than simply an area to get <br> a  hairstyle or cut; it was a center of the community where<br> people  came together to bond, to socialize and to exchange<br> suggestions. With the goal of bringing this camaraderie back in<br> style, Barber Shop, a barber  store and shop with places in New york city. <br>
+            <br>
+         Thanks for support Barber Shop!</p>
+         <button data-aos="zoom-in-right">READ MORE</button>
+        </div>
+        <div id="image-content"data-aos="flip-right">
+            <img src="./5.jpg" alt="" height="500px" width="500px">
+        </div>
+        </div>
+       
+    </div>
+
+     <!-- barber shop ends
+
+
+     <!-- barber service starts -->
+     <div class="service">
+        <h1 class="barbershop-service" data-aos="flip-down">Barbershop Services</h1>
+        <div id="serimg">
+            <div id="one"data-aos="zoom-in-up">
+                <img src="./9.jpg" alt="" height="550px" width="550px">
+            </div>
+            <div id="two" data-aos="zoom-in-down">
+                <div id="three">
+                    <div id="four">
+                        <img src="./10.png" alt="">
+                        <h2>Hair Cut</h2>
+                    </div>
+                    <div id="five">
+                        <img src="./11.png" alt="">
+                        <h2>Shaving</h2>
+                    </div>
+                </div>
+                <div id="six">
+                    <div id="seven">
+                        <img src="./12.png" alt="">
+                        <h2>Beard Trim</h2>
+                    </div>
+                    <div id="eight">
+                        <img src="./13.png" alt="">
+                        <h2>Beard Trim</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="pricing">
+             <h1 data-aos="zoom-in-down">Our Pricing</h1>
+        </div>
+        <div class="combine">
+            <div class="lists1">
+                <div id="li1">
+                    <div class="pop1">
+                        <h2>Regular Haircut</h2>
+                        <h2>$34+</h2>
+                    </div>
+                    <p>A great hair cut is the best accessory a man can have</p>
+                    <hr>
+                </div>
+                <div id="li1">
+                    <div class="pop2">
+                        <h2>Royal Shave</h2>
+                        <h2>$35+</h2>
+                    </div>
+                    <p>Our three-step signature shave</p>
+                    <hr>
+                </div>
+                <div id="li1">
+                    <div class="pop3">
+                        <h2>Specialty Men’s Haircut</h2>
+                        <h2>$34+</h2>
+                    </div>
+                    <p>Precision cut with detail + neck detail</p>
+                    <hr>
+                </div>
+                <div id="li1">
+                    <div class="pop4">
+                        <h2>Massaging Shampoo</h2>
+                        <h2>$12+</h2>
+                    </div>
+                    <p>Relaxing shampoo + scalp massage + hot towel</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="lists2">
+                <div id="li1">
+                    <div class="pop5">
+                        <h2>Haircut + Royal Shave</h2>
+                        <h2>$60+</h2>
+                    </div>
+                    <p>Our exceptional secrets all together for you</p>
+                    <hr>
+                </div>
+                <div id="li1">
+                    <div class="pop6">
+                        <h2>Haircut + Beard Trim</h2>
+                        <h2>$65+</h2>
+                    </div>
+                    <p>Beard or Shave, we bring the difference that makes you real</p>
+                    <hr>
+                </div>
+                <div id="li1">
+                    <div class="pop7">
+                        <h2>Men’s Color</h2>
+                        <h2>$55+</h2>
+                    </div>
+                    <p>Enhance your look with this permanent color service</p>
+                    <hr>
+                </div>
+                <div id="li1">
+                    <div class="pop8">
+                        <h2>Long Haircut</h2>
+                        <h2>$15+</h2>
+                    </div>
+                    <p>Our long haircut is similar to our classic haircut</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+
+      <!-- barber service ends -->
+
+      <!-- image content starts -->
+<div class="off-img-zindex">
+      <div class="off">
+        <img src="./14.jpg" alt="" width="100%" height="auto" >
+    </div>
+        <div id="zindex">
+            <h1 data-aos="slide-up">15%
+                <br>
+                OFF
+            </h1>
+            <h2 data-aos="slide-down">ON YOUR FRIST <br>
+                APPOINTMENT</h2>
+                <button data-aos="fade-left">BOOK AN APPOINTMENT</button>
+        </div>
+    </div>
+
+      <!-- image content ends -->
+
+      <div class="footer">
+        <div class="all">
+            <div class="working-container" >
+                <h2>Working Hours</h2>
+                <img src="./4.png" alt="" width="200px" height="200px">
+                <li>MON-FRI:8.00-19.00</li>
+                <li>SATURDAY:8.00-18.00</li>
+                <li>SUNDAY:8.00-19.00</li>
+            </div>
+            <div class="location" >
+                <h2>Location</h2>
+                <p>17 Green St, New York,
+                   <br> NY 10002, USA</p>
+                <a href="">support@barbershop@gmail.com</a> <br>
+                <br>
+                <a href="">+1 (800) 123 456 789</a>   
+            </div>
+            <div class="question" >
+                <img src="./22.png" alt="" width="80px" height="80px">
+                <h2>Question</h2>
+                <p>Add us on WhatsApp & send <br> queries for instant reply.</p>
+                <button>+12-345-678-89089</button>
+            </div>
+        </div>
+      </div>
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+</body>
+</html>
