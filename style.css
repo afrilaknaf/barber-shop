@@ -966,7 +966,7 @@
     }
     .off img{
         width: 100%;
-        height: 100vh;
+        height: 500px;
     }
     #zindex{
         position: relative;
@@ -1006,7 +1006,7 @@
     }
     .footer{
         position: relative;
-        top: 660px;
+        top: 500px;
         z-index: 12;
         height: 950px;
         padding-top: 70px;
@@ -1517,7 +1517,7 @@
     }
     .off img{
         width: 100%;
-        height: 100vh;
+        height: 500px;
     }
     #zindex{
         position: relative;
@@ -1557,7 +1557,7 @@
     }
     .footer{
         position: relative;
-        top: 660px;
+        top: 500px;
         z-index: 12;
         height: 950px;
         padding-top: 70px;
@@ -2099,7 +2099,7 @@
         color: #fff;
         border: 1px solid black;
         border-radius: 5px;
-        top: 20px;
+        top: 200px;
         left: 60%;
         position: absolute;
         &:hover{
